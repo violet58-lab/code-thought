@@ -44,7 +44,7 @@ public:
         return head;
     }
 };
-//答案解法二（虚拟头结点）
+//答案解法二（虚拟头结点）每次需要对头结点单独处理时，可以用虚拟头结点增删改查
 class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {

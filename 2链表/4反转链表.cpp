@@ -1,6 +1,6 @@
 //https://programmercarl.com/0206.%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8.html
 //https://leetcode.cn/problems/reverse-linked-list/description/
-//双指针法
+//1.双指针法
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -16,7 +16,7 @@ public:
         return pre;
     }
 };
-//递归法
+//2.递归法
 class Solution {
 public:
     ListNode* reverse(ListNode* pre,ListNode* cur){
